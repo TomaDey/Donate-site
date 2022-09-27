@@ -1,35 +1,35 @@
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0%;
-    background-color:rgb(57, 28, 28) ;
+    background-color:rgb(185, 180, 180);
+    color:rgb(242, 237, 237);
 }
 .banner-background{
     background-image: url(images/donation7.jpg);
         background-repeat: no-repeat;
+        padding: 8%;
 }
 .banner-font{
-    font-size: 30px;
+    font-size: 35px;
 }
 .banner-text {
         text-align: center;
-        color: rgb(244, 235, 235);
         padding: 20px;
 }
 .button-link{
     text-decoration: none;
     background-image:linear-gradient(rgb(143, 6, 6),hwb(60 2% 98%));
-    color:white;
-    padding:7px;
+    padding: 15px;
     border-radius:7px;
+    color:white;
 }
 .donation-plan{
     text-align:center;
-    color: rgb(239, 229, 229);
     width: 80%;
     margin: 8%;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 10px 10px 30px rgb(231, 225, 225);
+    box-shadow: 10px 10px 30px rgb(24, 22, 22);
     background-color:rgb(40, 38, 38)
 }
 .donate-amount{
@@ -53,14 +53,26 @@ body{
 #img-donate{
     width: 30%;
 }
+#img-recovery{
+    width:400px;
+}
+.update{
+    text-align: center;
+    color:black;
+}
+
+.form-field {
+    text-align: center;
+    width: 80%;
+    margin: 6%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 5px rgb(4, 4, 4);
+    background-color: rgb(138, 132, 132)
+}
 .footer{
     text-align: center;
-    color: white;
     padding: 10px;
     background-color: black;
 }
 
-.form-field{
-    width:25%;
-    
-}
